@@ -1,0 +1,251 @@
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+main {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #cacaca;
+  background-color: #08020d;
+}
+
+h1 {
+  margin: 0;
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+}
+
+/* header */
+.header {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  z-index: 1;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-left: 78px;
+}
+.nav__li {
+  display: block;
+  list-style: none;
+  margin: 0 12px;
+  text-transform: uppercase;
+}
+.nav__link {
+  text-decoration: none;
+  color: #cacaca;
+}
+.nav__link:hover {
+  color: #fff;
+}
+.nav__search {
+  padding: 0 10px;
+  margin: 0;
+  margin-left: auto;
+  width: 248px;
+  height: 25px;
+  border-radius: 50px;
+  border: none;
+  background-color: #3c3b3d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #757575;
+}
+
+.logo__img {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+}
+
+.logo__text {
+  margin: 0;
+}
+
+@media (max-width: 675px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 20px;
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .nav__li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3px;
+  }
+  .nav__link {
+    padding: 0;
+    margin: 0;
+  }
+  .nav__search {
+    width: 100%;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 17px;
+  }
+}
+/*hero */
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+.hero__subtitle {
+  margin-bottom: 31px;
+}
+.hero__form {
+  max-width: 570px;
+  margin: 0 auto;
+}
+.hero__text {
+  margin-bottom: 31px;
+}
+
+.content {
+  width: 1200px;
+  margin: 200px auto;
+  text-align: center;
+}
+
+.form__input {
+  min-width: 258px;
+  min-height: 50px;
+  padding: 0;
+  padding-left: 20px;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  border: 2px solid #cacaca;
+  border-radius: 3px;
+  background: none;
+  color: #fff;
+}
+
+.btn {
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  cursor: pointer;
+}
+.btn__green {
+  width: 100%;
+  border: none;
+  background-color: #34c176;
+}
+.btn__green:hover {
+  background-color: #1e8950;
+}
+
+@media (max-width: 650px) {
+  .hero__title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+  .hero__subtitle {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  .hero__text {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .content {
+    margin: 250px 0 200px 0;
+    padding: 0 20px;
+  }
+  .form__input {
+    width: 100%;
+  }
+}
+.page-pricing .content {
+  margin: 100px auto;
+}
+
+.pricing {
+  display: flex;
+  -moz-column-count: 3;
+       column-count: 3;
+  gap: 50px;
+}
+.pricing__item {
+  display: block;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+}
+.pricing__header {
+  margin: 0;
+  margin-top: 24px;
+  margin-bottom: 200px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+}
+.pricing__value {
+  color: green;
+}
+.bg__one {
+  background-image: url("../images/subscribe_1.png");
+}
+.bg__two {
+  background-image: url("../images/subscribe_2.png");
+}
+.bg__three {
+  background-image: url("../images/subscribe_3.png");
+}/*# sourceMappingURL=app.css.map */
