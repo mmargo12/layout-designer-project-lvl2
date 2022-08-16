@@ -1,0 +1,67 @@
+@import "variables.scss";
+
+.page__app .content {
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    max-width: 1200px;
+}
+.right-side {
+    max-width: 620px;
+    text-align: left;
+    
+}
+.app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    position: relative;
+
+
+    // .app__title
+
+    &__title {
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 64px;
+        text-align: center;
+    }
+
+    // .app__text
+
+    &__text {
+        font-size: 16px;
+        line-height: 150%;
+        color: $dark-gray;
+        margin-bottom: 33px;
+    }
+
+    // .app__link
+
+    &__link {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 12.8px;
+        color: #fff;
+    }
+
+    &__img {
+        position: absolute;
+        left: 890px;
+        top: 130px;
+    }
+}
+.btn {
+
+    // .btn__app
+
+    &__app {
+        background: $red;
+        border: 1px solid $red;
+        border-radius: 32px;
+        padding: 16px 40px;
+    }
+}
+

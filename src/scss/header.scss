@@ -76,7 +76,6 @@
 @media (max-width: 1200px) {
     .header {
         margin: 0 20px;
-        padding: 0 20px;
     }
 }
 
@@ -188,10 +187,9 @@
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
-    width: 100%;
 
     &__green {
-        
+        width: 100%;
         border: none;
         background-color: $green;
 
@@ -200,6 +198,13 @@
         }
     }
 
+}
+
+@media (max-width: 1200px) {
+    .content {
+        width: 100%;
+        margin: 250px 20px 200px 20px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -228,8 +233,7 @@
 
 }
 .content {
-    margin: 250px 0 200px 0;
-    padding: 0 20px;
+    margin: 250px 20px 200px 20px;
 }
 .form {
 

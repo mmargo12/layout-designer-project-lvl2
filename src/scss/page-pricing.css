@@ -38,6 +38,7 @@
 .pricing__link {
   text-decoration: none;
   color: #fff;
+  font-size: 16px;
 }
 .pricing__footer {
   margin-bottom: 64px;
@@ -84,5 +85,22 @@
   .pricing {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .page-pricing .content {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .page-pricing .content {
+    margin: 100px 20px 0 20px;
+  }
+  .news__title {
+    font-size: 18px;
+  }
+  .pricing__item {
+    width: 100%;
+  }
+  .pricing__header {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=page-pricing.css.map */

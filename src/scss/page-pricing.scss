@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 .page-pricing .content{
     margin: 100px auto;
     max-width: 1200px;
@@ -48,7 +50,7 @@
     &__link {
         text-decoration: none;
         color: #fff;
-        
+        font-size: 16px;
     }
 
     // .pricing__footer
@@ -114,12 +116,33 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .page-pricing .content {
+        width: 100%;
+    }
     
 }
 
 @media (max-width: 650px) {
     .page-pricing .content {
+        margin: 100px 20px 0 20px;
+    }
 
+    .news {
+
+        &__title {
+            font-size: 18px;
+        }
     }
     
+    .pricing {
+        
+        &__item {
+            width: 100%;
+        }
+
+        &__header {
+            font-size: 16px;
+        }
+    }
 }

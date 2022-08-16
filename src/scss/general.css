@@ -39,4 +39,10 @@ h2 {
 
 p {
   margin: 0;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=general.css.map */
