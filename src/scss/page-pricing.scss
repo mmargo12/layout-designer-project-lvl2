@@ -117,6 +117,10 @@
         justify-content: center;
     }
 
+    .page-pricing {
+        padding: 0 20px;
+    }
+
     .page-pricing .content {
         width: 100%;
     }
@@ -124,8 +128,12 @@
 }
 
 @media (max-width: 650px) {
+    .page-pricing {
+        padding: 0 20px;
+    }
+    
     .page-pricing .content {
-        margin: 100px 20px 0 20px;
+        margin: 100px 0 0 0;
     }
 
     .news {
@@ -136,13 +144,29 @@
     }
     
     .pricing {
+        justify-content: center;
         
         &__item {
-            width: 100%;
+           margin: 0 auto;
         }
 
         &__header {
             font-size: 16px;
+        }
+    }
+
+    .bg {
+
+        &__one {
+            width: 100%;
+        }
+
+        &__two {
+            width: 100%;
+        }
+
+        &__three {
+            width: 100%;
         }
     }
 }

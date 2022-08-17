@@ -6,9 +6,10 @@
     margin-bottom: 100px;
     padding-top: 100px;
     max-width: 1200px;
+    position: relative;
 }
 .right-side {
-    max-width: 620px;
+    max-width: 600px;
     text-align: left;
     
 }
@@ -17,7 +18,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 0;
-    position: relative;
+    
 
 
     // .app__title
@@ -32,8 +33,8 @@
     // .app__text
 
     &__text {
-        font-size: 16px;
-        line-height: 150%;
+        font-size: 12.3px;
+        line-height: 24px;
         color: $dark-gray;
         margin-bottom: 33px;
     }
@@ -50,7 +51,7 @@
     &__img {
         position: absolute;
         left: 890px;
-        top: 130px;
+        top: 230px;
     }
 }
 .btn {
@@ -65,3 +66,40 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .page__app {
+        overflow: hidden;
+        padding: 0 20px;
+    }
+    .page__app .content {
+        
+        margin-bottom: 100px;
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    .app {
+        flex-direction: column;
+
+        &__img {
+            left: 690px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .app {
+
+        &__title {
+            margin-bottom: 16.5px;
+        }
+
+        &__img {
+            position: static;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+    }
+}
