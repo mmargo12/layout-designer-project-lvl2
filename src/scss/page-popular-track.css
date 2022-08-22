@@ -1,9 +1,6 @@
-.page-popular-track {
-  padding-top: 100px;
-}
-
 .page-popular-track .content {
   margin: 0 auto;
+  margin-top: 100px;
   text-align: left;
 }
 
@@ -55,7 +52,6 @@
 @media (max-width: 1220px) {
   .page-popular-track {
     padding: 0 20px;
-    padding-top: 100px;
   }
   .popular-track__track {
     width: 100%;

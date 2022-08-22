@@ -1,9 +1,6 @@
-.page-discography {
-  padding-top: 100px;
-}
-
 .page-discography .content {
   margin: 0 auto;
+  margin-top: 100px;
   text-align: left;
 }
 
@@ -27,7 +24,7 @@
 }
 .discography__album-title {
   margin: 0;
-  margin-top: 18px;
+  margin-top: 10.2px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -39,7 +36,6 @@
 @media (max-width: 1220px) {
   .page-discography {
     padding: 0 20px;
-    padding-top: 100px;
   }
 }
 @media (max-width: 650px) {
