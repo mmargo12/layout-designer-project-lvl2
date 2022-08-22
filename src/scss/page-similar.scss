@@ -1,10 +1,15 @@
 @import "variables";
-
-.page-similar .content {
-    padding: 100px 0;
+.page-similar {
+    padding: 100px 20px;
     margin: 0 auto;
+    max-width: 1200px;
     text-align: left;
 }
+// .page-similar .content {
+//     padding: 100px 0;
+//     margin: 0 auto;
+//     text-align: left;
+// }
 
 .similar {
 
@@ -58,8 +63,11 @@
 
 @media (max-width: 1220px) {
     .page-similar {
-        padding: 100px 0;
-        margin: 0 20px;
+       // padding: 100px 0;
+        //margin: 0 20px;
+    }
+    .page-similar .content {
+        //padding: 0 20px;
     }
 }
 

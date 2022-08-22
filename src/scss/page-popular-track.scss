@@ -1,10 +1,21 @@
 @import "variables.scss";
 
-.page-popular-track .content{
+.container {
     margin: 0 auto;
+}
+
+.page-popular-track {
+    padding: 0 20px;
     padding-top: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
     text-align: left;
 }
+// .page-popular-track .content{
+//     margin: 0 auto;
+//     padding-top: 100px;
+//     text-align: left;
+// }
 .popular-track {
 
 		// .popular-track__title    

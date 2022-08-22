@@ -1,6 +1,7 @@
-.page-similar .content {
-  padding: 100px 0;
+.page-similar {
+  padding: 100px 20px;
   margin: 0 auto;
+  max-width: 1200px;
   text-align: left;
 }
 
@@ -34,12 +35,6 @@
   color: #e0e0e0;
 }
 
-@media (max-width: 1220px) {
-  .page-similar {
-    padding: 100px 0;
-    margin: 0 20px;
-  }
-}
 @media (max-width: 650px) {
   .similar__title {
     line-height: 27px;
