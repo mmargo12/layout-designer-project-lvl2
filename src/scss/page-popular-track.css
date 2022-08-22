@@ -7,6 +7,7 @@
 .popular-track__title {
   font-size: 38px;
   margin-bottom: 48px;
+  line-height: 57px;
 }
 .popular-track__tracks {
   display: flex;
@@ -59,6 +60,6 @@
 @media (max-width: 650px) {
   .popular-track__title {
     font-size: 18px;
-    margin: 0;
+    line-height: 27px;
   }
 }/*# sourceMappingURL=page-popular-track.css.map */

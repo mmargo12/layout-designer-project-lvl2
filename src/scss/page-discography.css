@@ -7,6 +7,7 @@
 .discography__title {
   font-size: 38px;
   margin-bottom: 48px;
+  line-height: 57px;
 }
 .discography__albums {
   display: flex;
@@ -39,8 +40,8 @@
 }
 @media (max-width: 650px) {
   .discography__title {
-    margin: 0;
     font-size: 18px;
+    line-height: 27px;
   }
   .discography__album {
     width: 137px;

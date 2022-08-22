@@ -7,11 +7,12 @@
 }
 .popular-track {
 
-		// .popular-track__title
+		// .popular-track__title    
 
 		&__title {
             font-size: 38px;
             margin-bottom: 48px;
+            line-height: 57px;
 		}
 
 		// .popular-track__tracks
@@ -91,7 +92,7 @@
 
         &__title {
             font-size: 18px;
-            margin: 0;
+            line-height: 27px;
         }
     }
 }
