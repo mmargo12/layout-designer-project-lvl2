@@ -36,7 +36,8 @@
 
 @media (max-width: 1220px) {
   .page-similar {
-    padding: 100px 20px;
+    padding: 100px 0;
+    margin: 0 20px;
   }
 }
 @media (max-width: 650px) {
