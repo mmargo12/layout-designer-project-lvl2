@@ -1,0 +1,105 @@
+@import "variables.scss";
+
+.artist {
+    margin: 0;
+    background-image: url("../images/Morten Harket.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+
+    // .artist__title
+
+    &__title {
+        margin-top: 50px;
+        margin-bottom: 16px;
+    }
+
+    // .artist__text
+
+    &__text {
+        font-size: 16px;
+        margin-bottom: 48px;
+    }
+
+    // .artist__btn
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        max-width: 200px;
+        padding: 20px 30px;
+        font-size: 12.8px;
+        text-transform: uppercase;
+        margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
+        border-radius: 5px;
+        border: none;
+    }
+
+    &__btns {
+        display: flex;
+        flex-direction: row;
+    }
+}
+.artist .content {
+    width: 1200px;
+    text-align: left;
+}
+.btn {
+
+    // .btn__purple
+
+    &__purple {
+        background: $purple;
+        position: relative;
+    }
+
+    // .btn__orange
+
+    &__orange {
+        background: $red;
+    }
+
+    &__play {
+        width: 20px;
+        height: 20px;
+        margin-right: 16px;
+        filter: invert(1);
+    }
+
+    &__heart {
+        width: 20px;
+        height: 17.79px;
+        margin-right: 16px;
+        filter: invert(1);
+    }
+}
+
+@media (max-width: 1220px) {
+    .artist {
+        padding: 0 20px;
+    }
+
+    .artist .content {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 650px) {
+    .artist {
+
+        &__title {
+            font-size: 30px;
+            margin-top: 25px;
+            margin-bottom: 0;
+        }
+
+        &__btns {
+            flex-direction: column;
+        }
+    }
+
+    .artist .content {
+        margin: 200px 0;
+    }
+}
