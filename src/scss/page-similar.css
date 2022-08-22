@@ -1,5 +1,9 @@
+.page-similar {
+  padding: 100px 0;
+}
+
 .page-similar .content {
-  margin: 100px auto;
+  margin: 0 auto;
   text-align: left;
 }
 
