@@ -1,0 +1,124 @@
+.page-pricing .content {
+  margin: 100px auto;
+  max-width: 1200px;
+}
+
+.pricing {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 43px;
+  margin-top: 45px;
+}
+.pricing__item {
+  max-width: 20rem;
+  padding: 0 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.pricing__header {
+  margin: 0;
+  margin-top: 24px;
+  margin-bottom: 200px;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.pricing__value {
+  font-size: 64px;
+  line-height: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+.pricing__rub {
+  font-size: 32px;
+  line-height: 1em;
+}
+.pricing__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+.pricing__footer {
+  margin-bottom: 64px;
+  font-size: 12.8px;
+  line-height: 150%;
+  text-align: center;
+}
+.pricing__small-text {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+}
+
+.pricing__value sub {
+  font-size: 32px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.bg__one {
+  background-image: url("../images/subscribe_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg__two {
+  background-image: url("../images/subscribe_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg__three {
+  background-image: url("../images/subscribe_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn__pricing {
+  width: 100%;
+  margin-bottom: 64px;
+  background: none;
+  border: 2px solid #fff;
+}
+
+@media (max-width: 1220px) {
+  .pricing {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .page-pricing {
+    padding: 0 20px;
+  }
+  .page-pricing .content {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .page-pricing {
+    padding: 0 20px;
+  }
+  .page-pricing .content {
+    margin: 100px 0 0 0;
+  }
+  .news__title {
+    font-size: 18px;
+  }
+  .pricing {
+    justify-content: center;
+  }
+  .pricing__item {
+    margin: 0 auto;
+  }
+  .pricing__header {
+    font-size: 16px;
+  }
+  .bg__one {
+    width: 100%;
+  }
+  .bg__two {
+    width: 100%;
+  }
+  .bg__three {
+    width: 100%;
+  }
+}/*# sourceMappingURL=page-pricing.css.map */

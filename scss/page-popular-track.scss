@@ -1,0 +1,99 @@
+@import "variables.scss";
+
+.page-popular-track .content{
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: left;
+}
+.popular-track {
+
+		// .popular-track__title    
+
+		&__title {
+            font-size: 38px;
+            margin-bottom: 48px;
+            line-height: 57px;
+		}
+
+		// .popular-track__tracks
+
+		&__tracks {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 25px 50px;
+		}
+
+		// .popular-track__track
+
+		&__track {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 551px;
+		}
+
+		// .popular-track__track-img
+
+		&__track-img {
+            height: 55px;
+            width: 55px;
+		}
+
+        &__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 15px;
+        }
+
+		// .popular-track__track-title
+
+		&__track-title {
+            margin: 0;
+            font-size: 12.8px;
+            font-weight: 700;
+            text-transform: uppercase;
+		}
+
+		// .popular-track__track-artist
+
+		&__track-artist {
+            margin: 0;
+            font-size: 12.8px;
+            font-weight: 400;
+            color: $gray;
+		}
+
+		// .popular-track__track-time
+
+		&__track-time {
+            margin-left: auto;
+            font-size: 12.8px;
+            color: $gray;
+		}
+}
+
+@media (max-width: 1220px) {
+    .page-popular-track {
+        padding: 0 20px;
+        padding-top: 100px;
+    }
+
+    .popular-track {
+        
+        &__track {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+    .popular-track {
+
+        &__title {
+            font-size: 18px;
+            line-height: 27px;
+        }
+    }
+}
