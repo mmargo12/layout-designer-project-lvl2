@@ -68,7 +68,7 @@
   align-items: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .header {
     margin-right: 20px;
   }
@@ -163,7 +163,7 @@
   background-color: #1e8950;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .hero {
     padding: 0 20px;
   }

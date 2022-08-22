@@ -81,7 +81,7 @@
   border: 2px solid #fff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .pricing {
     flex-wrap: wrap;
     justify-content: center;
