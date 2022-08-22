@@ -66,8 +66,9 @@
 @media (max-width: 650px) {
   .artist__title {
     font-size: 30px;
+    line-height: 45px;
     margin-top: 25px;
-    margin-bottom: 0;
+    margin-bottom: 16px;
   }
   .artist__btns {
     flex-direction: column;
