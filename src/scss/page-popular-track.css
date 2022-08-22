@@ -57,7 +57,8 @@
 
 @media (max-width: 1220px) {
   .page-popular-track {
-    margin: 0 20px;
+    padding: 0 20px;
+    margin: 0;
     padding-top: 100px;
   }
   .popular-track__track {
