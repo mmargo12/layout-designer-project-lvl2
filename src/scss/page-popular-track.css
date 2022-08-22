@@ -1,0 +1,64 @@
+.page-popular-track .content {
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.popular-track__title {
+  font-size: 38px;
+  margin-bottom: 48px;
+}
+.popular-track__tracks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px 50px;
+}
+.popular-track__track {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 551px;
+}
+.popular-track__track-img {
+  height: 55px;
+  width: 55px;
+}
+.popular-track__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.popular-track__track-title {
+  margin: 0;
+  font-size: 12.8px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.popular-track__track-artist {
+  margin: 0;
+  font-size: 12.8px;
+  font-weight: 400;
+  color: #e0e0e0;
+}
+.popular-track__track-time {
+  margin-left: auto;
+  font-size: 12.8px;
+  color: #e0e0e0;
+}
+
+@media (max-width: 1220px) {
+  .page-popular-track {
+    padding: 0 20px;
+  }
+  .popular-track__track {
+    width: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .popular-track__title {
+    font-size: 18px;
+    margin: 0;
+  }
+}/*# sourceMappingURL=page-popular-track.css.map */
