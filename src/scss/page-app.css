@@ -39,9 +39,9 @@
   color: #fff;
 }
 .app__img {
-  position: fixed;
+  position: absolute;
   left: 760px;
-  top: 275px;
+  top: 205px;
 }
 
 .btn__app {
