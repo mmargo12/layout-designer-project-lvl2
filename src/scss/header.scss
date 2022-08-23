@@ -163,7 +163,7 @@
     &__text {
         font-size: 16px;
         line-height: 24px;
-        margin-bottom: 31px;
+        margin-bottom: 17px;
     }
 }
 
@@ -240,6 +240,7 @@
 
 		&__subtitle {
             font-size: 18px;
+            line-height: 27px;
             margin-bottom: 16px;
 		}
 
@@ -257,8 +258,19 @@
 		// .form__input
 
 		&__input {
-            width: 100%;
+            width: 93.7%;
 		}
+
+        &__first {
+            margin-right: 0;
+        }
+}
+
+.btn {
+
+    &__green {
+        width: 374px;
+    }
 }
 
 }
