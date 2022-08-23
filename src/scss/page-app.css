@@ -11,6 +11,7 @@
 .right-side {
   max-width: 600px;
   text-align: left;
+  padding-bottom: 81px;
 }
 
 .app {
@@ -69,8 +70,11 @@
   }
 }
 @media (max-width: 650px) {
+  .right-side {
+    padding: 0;
+  }
   .left-side {
-    margin-bottom: 16px;
+    margin-bottom: 14px;
   }
   .app__title {
     margin-bottom: 48px;

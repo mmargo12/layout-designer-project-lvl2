@@ -174,7 +174,6 @@
   .content {
     width: 100%;
     margin: 250px 0 200px 0;
-    margin-right: 20px;
   }
 }
 @media (max-width: 650px) {
