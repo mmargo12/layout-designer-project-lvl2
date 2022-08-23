@@ -25,7 +25,6 @@
     // .app__title
 
     &__title {
-        display: inline-block;
         margin: 0 auto;
         margin-bottom: 64px;
         text-align: center;
@@ -53,8 +52,8 @@
 
     &__img {
         position: absolute;
-        left: 890px;
-        top: 230px;
+        left: 760px;
+        top: 205px;
     }
 }
 .btn {
@@ -63,15 +62,16 @@
 
     &__app {
         background: $red;
-        border: 1px solid $red;
+        //border: 1px solid $red;
         border-radius: 32px;
         padding: 16px 40px;
+        display: block;
+        width: fit-content;
     }
 }
 
 @media (max-width: 1220px) {
     .page__app {
-        overflow: hidden;
         padding: 0 20px;
         margin: 0;
         padding-top: 100px;
@@ -91,7 +91,9 @@
     .app {
 
         &__title {
-            margin-bottom: 16.5px;
+            margin-bottom: 48px;
+            font-size: 18px;
+            line-height: 27px;
         }
 
         &__img {

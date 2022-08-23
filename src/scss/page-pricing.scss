@@ -118,7 +118,8 @@
 }
 
 .btn__pricing {
-    width: 100%;
+    display: block;
+    width: auto;
     margin-bottom: 64px;
     background: none;
     border: 2px solid #fff;
@@ -140,6 +141,10 @@
 
 @media (max-width: 650px) {
 
+    .page-pricing h1 {
+        font-size: 18px;
+        line-height: 27px;
+    }
     .news {
 
         &__title {
@@ -156,6 +161,11 @@
 
         &__header {
             font-size: 16px;
+        }
+
+        &__title {
+            font-size: 18px;
+            line-height: 27px;
         }
     }
 
