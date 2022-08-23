@@ -1,10 +1,11 @@
-.page__app .content {
-  margin: 0 auto;
-  padding: 0;
-  margin-bottom: 100px;
+.page__app {
+  padding: 0 20px;
   padding-top: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
   max-width: 1200px;
   position: relative;
+  text-align: center;
 }
 
 .right-side {
@@ -23,12 +24,14 @@
   margin: 0 auto;
   margin-bottom: 64px;
   text-align: center;
+  font-size: 38px;
+  line-height: 57px;
 }
 .app__text {
   font-size: 12.3px;
   line-height: 24px;
   color: #cacaca;
-  margin-bottom: 33px;
+  margin-bottom: 16px;
 }
 .app__link {
   text-decoration: none;
@@ -53,11 +56,9 @@
   .page__app {
     overflow: hidden;
     padding: 0 20px;
-  }
-  .page__app .content {
-    margin-bottom: 100px;
+    margin: 0;
     padding-top: 100px;
-    width: 100%;
+    margin-bottom: 100px;
   }
   .app {
     flex-direction: column;

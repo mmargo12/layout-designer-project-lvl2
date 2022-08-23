@@ -116,7 +116,7 @@ p {
   align-items: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .header {
     margin-right: 20px;
   }
@@ -136,7 +136,6 @@ p {
   .nav__li {
     padding: 0;
     margin: 0;
-    margin-bottom: 3px;
   }
   .nav__link {
     padding: 0;
@@ -156,10 +155,12 @@ p {
 }
 /*hero */
 .hero {
+  max-width: 1200px;
+  margin: 200px auto;
+  text-align: center;
   position: relative;
   display: flex;
   justify-content: center;
-  margin: 0;
   background-image: url("../images/banner.png");
   background-position: center;
   background-size: cover;
@@ -211,7 +212,7 @@ p {
   background-color: #1e8950;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .hero {
     padding: 0 20px;
   }
@@ -238,8 +239,10 @@ p {
     width: 100%;
   }
 }
-.page-pricing .content {
-  margin: 100px auto;
+.page-pricing {
+  padding: 0 20px;
+  padding-top: 100px;
+  margin: 0 auto;
   max-width: 1200px;
 }
 
@@ -321,25 +324,18 @@ p {
   border: 2px solid #fff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .pricing {
     flex-wrap: wrap;
     justify-content: center;
   }
   .page-pricing {
     padding: 0 20px;
-  }
-  .page-pricing .content {
-    width: 100%;
+    margin: 0;
+    padding-top: 100px;
   }
 }
 @media (max-width: 650px) {
-  .page-pricing {
-    padding: 0 20px;
-  }
-  .page-pricing .content {
-    margin: 100px 0 0 0;
-  }
   .news__title {
     font-size: 18px;
   }
@@ -362,9 +358,10 @@ p {
     width: 100%;
   }
 }
-.page__news .content {
+.page__news {
+  padding: 0 20px;
+  padding-top: 100px;
   margin: 0 auto;
-  margin-top: 100px;
   max-width: 1200px;
 }
 
@@ -447,12 +444,11 @@ p {
   color: #fff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .page__news {
     padding: 0 20px;
-  }
-  .page__news .content {
-    width: 100%;
+    margin: 0;
+    padding-top: 100px;
   }
   .news__item {
     flex-wrap: wrap;
@@ -474,11 +470,11 @@ p {
     width: 100%;
   }
 }
-.page__app .content {
-  margin: 0 auto;
-  padding: 0;
-  margin-bottom: 100px;
+.page__app {
+  padding: 0 20px;
   padding-top: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
   max-width: 1200px;
   position: relative;
 }
@@ -525,15 +521,13 @@ p {
   padding: 16px 40px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .page__app {
     overflow: hidden;
     padding: 0 20px;
-  }
-  .page__app .content {
-    margin-bottom: 100px;
+    margin: 0;
     padding-top: 100px;
-    width: 100%;
+    margin-bottom: 100px;
   }
   .app {
     flex-direction: column;
@@ -638,10 +632,12 @@ p {
   background: #cacaca;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1220px) {
   .footer {
     padding: 0 20px;
   }
+}
+@media (max-width: 650px) {
   .footer__links {
     flex-direction: column;
     gap: 30px;

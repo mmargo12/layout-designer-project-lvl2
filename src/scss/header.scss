@@ -156,17 +156,19 @@
     }
 
     &__form {
-        max-width: 570px;
+        max-width: 580px;
         margin: 0 auto;
     }
 
     &__text {
+        font-size: 16px;
+        line-height: 24px;
         margin-bottom: 31px;
     }
 }
 
 .content {
-    max-width: 1200px;
+    width: 1200px;
     margin: 200px auto;
     text-align: center;
 }
@@ -176,8 +178,8 @@
     // .form__input
 
     &__input {
-        min-width: 258px;
-        min-height: 50px;
+        width: 249px;
+        height: 50px;
         padding: 0;
         padding-left: 20px;
         margin: 0;
@@ -186,6 +188,10 @@
         border-radius: 3px;
         background: none;
         color: #fff;
+    }
+
+    &__first {
+        margin-right: 24px;
     }
 }
 
@@ -198,7 +204,7 @@
     cursor: pointer;
 
     &__green {
-        width: 100%;
+        width: 570px;
         border: none;
         background-color: $green;
 

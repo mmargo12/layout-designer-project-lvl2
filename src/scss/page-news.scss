@@ -1,14 +1,18 @@
 @import "variables.scss";
 
-.page__news .content {
+.page__news {
+    padding: 0 20px;
+    padding-top: 100px;
     margin: 0 auto;
-    margin-top: 100px;
     max-width: 1200px;
+    text-align: center;
 }
 
 .news {
 
     &__title {
+        font-size: 38px;
+        line-height: 57px;
         margin-bottom: 48px;
     }
     // .news__item
@@ -123,9 +127,8 @@
 @media (max-width: 1220px) {
     .page__news {
         padding: 0 20px;
-    }
-    .page__news .content {
-        width: 100%;
+        margin: 0;
+        padding-top: 100px;
     }
     .news {
 

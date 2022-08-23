@@ -1,6 +1,15 @@
-.page-pricing .content {
-  margin: 100px auto;
+.page-pricing {
+  padding: 0 20px;
+  padding-top: 100px;
+  margin: 0 auto;
   max-width: 1200px;
+  text-align: center;
+}
+
+.page-pricing h1 {
+  font-size: 38px;
+  line-height: 57px;
+  margin-bottom: 45px;
 }
 
 .pricing {
@@ -88,18 +97,11 @@
   }
   .page-pricing {
     padding: 0 20px;
-  }
-  .page-pricing .content {
-    width: 100%;
+    margin: 0;
+    padding-top: 100px;
   }
 }
 @media (max-width: 650px) {
-  .page-pricing {
-    padding: 0 20px;
-  }
-  .page-pricing .content {
-    margin: 100px 0 0 0;
-  }
   .news__title {
     font-size: 18px;
   }
