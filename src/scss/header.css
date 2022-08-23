@@ -193,11 +193,14 @@
   }
   .form__input {
     width: 93.7%;
+    height: 46px;
   }
   .form__first {
     margin-right: 0;
   }
   .btn__green {
+    font-size: 13.3px;
+    line-height: 15px;
     width: 374px;
   }
 }/*# sourceMappingURL=header.css.map */

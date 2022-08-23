@@ -39,9 +39,9 @@
   color: #fff;
 }
 .app__img {
-  position: absolute;
+  position: fixed;
   left: 760px;
-  top: 205px;
+  top: 275px;
 }
 
 .btn__app {
@@ -69,6 +69,9 @@
   }
 }
 @media (max-width: 650px) {
+  .left-side {
+    margin-bottom: 16px;
+  }
   .app__title {
     margin-bottom: 48px;
     font-size: 18px;
@@ -76,7 +79,6 @@
   }
   .app__img {
     position: static;
-    margin-bottom: 16px;
   }
   .app__text {
     font-size: 16px;

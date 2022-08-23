@@ -259,6 +259,7 @@
 
 		&__input {
             width: 93.7%;
+            height: 46px;
 		}
 
         &__first {
@@ -269,6 +270,8 @@
 .btn {
 
     &__green {
+        font-size: 13.3px;
+        line-height: 15px;
         width: 374px;
     }
 }

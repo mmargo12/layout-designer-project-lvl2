@@ -51,9 +51,12 @@
     }
 
     &__img {
-        position: absolute;
+        // position: absolute;
+        // left: 760px;
+        // top: 205px;
+        position: fixed;
         left: 760px;
-        top: 205px;
+        top: 275px;
     }
 }
 .btn {
@@ -88,6 +91,9 @@
 }
 
 @media (max-width: 650px) {
+    .left-side {
+        margin-bottom: 16px;
+    }
     .app {
 
         &__title {
@@ -98,7 +104,7 @@
 
         &__img {
             position: static;
-            margin-bottom: 16px;
+            //margin-bottom: 16px;
         }
 
         &__text {
