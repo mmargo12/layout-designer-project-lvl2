@@ -9,7 +9,7 @@
 .page-pricing h1 {
   font-size: 38px;
   line-height: 57px;
-  margin-bottom: 45px;
+  margin-bottom: 48px;
 }
 
 .pricing-text {
@@ -21,7 +21,6 @@
   display: flex;
   gap: 50px;
   margin-bottom: 43px;
-  margin-top: 45px;
 }
 .pricing__item {
   max-width: 20rem;
@@ -82,16 +81,19 @@
   background-image: url("../images/subscribe_1.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 1rem;
 }
 .bg__two {
   background-image: url("../images/subscribe_2.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 1rem;
 }
 .bg__three {
   background-image: url("../images/subscribe_3.png");
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 1rem;
 }
 
 .btn__pricing {
