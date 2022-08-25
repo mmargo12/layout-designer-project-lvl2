@@ -20,7 +20,7 @@
 .pricing {
   display: flex;
   gap: 50px;
-  margin-bottom: 43px;
+  margin-bottom: 40px;
 }
 .pricing__item {
   max-width: 20rem;
