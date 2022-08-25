@@ -31,7 +31,7 @@
 .pricing__header {
   margin: 0;
   margin-top: 24px;
-  margin-bottom: 196px;
+  margin-bottom: 197px;
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
@@ -39,8 +39,9 @@
   color: #fff;
 }
 .pricing__value {
+  position: relative;
   font-size: 64px;
-  line-height: 1em;
+  line-height: 64px;
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 40px;
@@ -72,8 +73,10 @@
 }
 
 .pricing__value sub {
+  position: absolute;
+  top: 0;
   font-size: 32px;
-  line-height: 1em;
+  line-height: 48px;
   text-transform: uppercase;
 }
 
