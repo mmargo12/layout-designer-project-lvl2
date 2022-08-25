@@ -16,7 +16,7 @@
 .artist__btn {
   display: flex;
   align-items: center;
-  max-width: 200px;
+  width: 200px;
   padding: 20px 30px;
   font-size: 12.8px;
   text-transform: uppercase;
