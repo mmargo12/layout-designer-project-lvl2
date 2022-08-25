@@ -143,6 +143,7 @@
 /*hero */
 
 .hero {
+    padding: 200px 0;
     position: relative;
     display: flex;
     justify-content: center;
@@ -156,7 +157,7 @@
     }
 
     &__form {
-        max-width: 580px;
+        max-width: 570px;
         margin: 0 auto;
     }
 
@@ -169,7 +170,8 @@
 
 .content {
     width: 1200px;
-    margin: 200px auto;
+    //margin: 200px auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -178,8 +180,8 @@
     // .form__input
 
     &__input {
-        width: 249px;
-        height: 50px;
+        width: 248px;
+        height: 46px;
         padding: 0;
         padding-left: 20px;
         margin: 0;
@@ -191,7 +193,7 @@
     }
 
     &__first {
-        margin-right: 24px;
+        margin-right: 20px;
     }
 }
 
