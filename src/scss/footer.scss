@@ -29,6 +29,7 @@
     // .footer__column-title
 
     &__column-title {
+        width: 270px;
         margin-bottom: 15px;
         font-size: 18px;
         line-height: 27px;
@@ -85,7 +86,6 @@
     width: 270px;
 }
 .third-column {
-    display: block;
     width: 270px;
 }
 .fourth-column {
@@ -100,7 +100,7 @@
 
     &::before {
         position: absolute;
-        top: 270px;
+        top: 268px;
         left: 0;
         content: "";
         display: block;
@@ -130,14 +130,18 @@
 
         &__column-title {
             display: block;
+            width: 100%;
         }
     }
 
+    .first-column, .second-column, .third-column, .fourth-column {
+        width: 100%;
+    }
     .fourth-column {
         margin: 0;
     }
 
     .bg-gradient::before {
-        top: 722px;
+        top: 680px;
     }
 }
