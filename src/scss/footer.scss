@@ -8,7 +8,7 @@
     // .footer__links
 
     &__links {
-        padding: 3rem 0;
+        padding: 62px 0 72px 0;
         display: flex;
         column-count: 4;
         gap: 40px;
@@ -57,7 +57,7 @@
     // .footer__low-menu
 
     &__low-menu {
-        padding: 2rem 0;
+        padding: 40px 0 49px 0;
         display: flex;
         flex-direction: row;
         gap: 16px;
@@ -89,7 +89,7 @@
 
     &::before {
         position: absolute;
-        top: 236px;
+        top: 271px;
         left: 0;
         content: "";
         display: block;

@@ -4,7 +4,7 @@
   max-width: 1200px;
 }
 .footer__links {
-  padding: 3rem 0;
+  padding: 62px 0 72px 0;
   display: flex;
   -moz-column-count: 4;
        column-count: 4;
@@ -40,7 +40,7 @@
   gap: 24px;
 }
 .footer__low-menu {
-  padding: 2rem 0;
+  padding: 40px 0 49px 0;
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -74,7 +74,7 @@
 }
 .bg-gradient::before {
   position: absolute;
-  top: 236px;
+  top: 271px;
   left: 0;
   content: "";
   display: block;

@@ -155,7 +155,6 @@ p {
 }
 /*hero */
 .hero {
-  padding: 200px 0;
   position: relative;
   display: flex;
   justify-content: center;
@@ -168,7 +167,7 @@ p {
   margin-bottom: 31px;
 }
 .hero__form {
-  max-width: 580px;
+  max-width: 570px;
   margin: 0 auto;
 }
 .hero__text {
@@ -179,13 +178,13 @@ p {
 
 .content {
   width: 1200px;
-  margin: 0 auto;
+  margin: 200px auto;
   text-align: center;
 }
 
 .form__input {
-  width: 249px;
-  height: 50px;
+  width: 248px;
+  height: 46px;
   padding: 0;
   padding-left: 20px;
   margin: 0;
@@ -196,7 +195,7 @@ p {
   color: #fff;
 }
 .form__first {
-  margin-right: 24px;
+  margin-right: 20px;
 }
 
 .btn {
@@ -260,7 +259,7 @@ p {
   text-align: center;
 }
 
-.page-pricing h1 {
+.page-pricing h2 {
   font-size: 38px;
   line-height: 57px;
   margin-bottom: 48px;
@@ -373,7 +372,7 @@ p {
   }
 }
 @media (max-width: 650px) {
-  .page-pricing h1 {
+  .page-pricing h2 {
     font-size: 18px;
     line-height: 27px;
   }
@@ -450,6 +449,7 @@ p {
   font-size: 30px;
   line-height: 45px;
   font-weight: 400;
+  text-transform: capitalize;
 }
 .news__body {
   font-size: 16px;
