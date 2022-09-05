@@ -58,7 +58,7 @@
 
 @media (max-width: 1220px) {
   .artist {
-    padding: 0 20px;
+    padding: 200px 20px 200px 20px;
   }
   .artist .content {
     max-width: 1200px;
@@ -73,8 +73,5 @@
   }
   .artist__btns {
     flex-direction: column;
-  }
-  .artist .content {
-    margin: 200px 0;
   }
 }/*# sourceMappingURL=artist.css.map */
