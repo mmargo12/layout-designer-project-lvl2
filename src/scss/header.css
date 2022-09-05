@@ -107,6 +107,7 @@
 }
 /*hero */
 .hero {
+  padding: 200px 0;
   position: relative;
   display: flex;
   justify-content: center;
@@ -130,7 +131,6 @@
 
 .content {
   width: 1200px;
-  margin: 200px auto;
   text-align: center;
 }
 
