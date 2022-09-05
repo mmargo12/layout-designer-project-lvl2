@@ -53,7 +53,7 @@
 
     &__text {
         font-size: 15px;
-        line-height: 24px;
+        line-height: 18px;
         font-weight: 400;
         color: $gray;
     }
@@ -105,7 +105,7 @@
 
     &::before {
         position: absolute;
-        top: 267px;
+        top: 269px;
         left: 0;
         content: "";
         display: block;
@@ -127,7 +127,7 @@
         &__links {
             flex-direction: column;
             gap: 30px;
-            padding: 62px 0 70px 0;
+            padding: 62px 0 68px 0;
             
         }
 
