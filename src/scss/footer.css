@@ -107,7 +107,6 @@
   .footer__links {
     flex-direction: column;
     gap: 30px;
-    padding: 62px 0 68px 0;
   }
   .footer__low-menu {
     flex-direction: column;
